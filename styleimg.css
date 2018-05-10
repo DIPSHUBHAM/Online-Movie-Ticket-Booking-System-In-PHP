@@ -1,0 +1,85 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+
+}
+body{
+   width: 100%;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Bitter', serif;
+    background-color: rgba(136, 133, 133, 0);
+}
+.navbar-brand{
+    margin-left:50px;
+   margin-right: 50px;
+   color:orange;
+}
+
+.btn-secondary{
+padding: 15px;
+color:white;
+background-color: green;
+margin-top: 50px;
+font-weight: 100px;
+margin-right: 10px;
+}
+.movies{
+    margin-top: 50px;
+    margin-left:63px;
+    text-align: center;
+  color: rgb(207, 203, 203);
+  transform: 1000ms;
+
+}
+.movies1{
+    margin-top: 50px;
+    margin-left:63px;
+    text-align: center;
+    color: rgb(207, 203, 203);
+
+}
+
+
+.fa-star{
+    color: #FFD300;
+}
+li{
+
+    font-size: 20px;
+    text-decoration: none;
+    display: inline;
+}
+footer{
+    background-color:rgb(37, 34, 34)
+     ; color:black;
+}
+.navlink{
+    margin-top:20px;
+
+    margin-left: 410px;
+    color: rgb(7, 7, 7);
+}
+.icon{
+    margin-left: 560px;
+
+}
+.fa-facebook-square:hover{
+    color: rgb(177, 89, 57);
+    cursor: pointer;
+}
+.fa-instagram:hover{
+    color: rgb(177, 89, 57);
+    cursor: pointer;
+}
+
+.fa-twitter:hover{
+    color: rgb(177, 89, 57);
+    cursor: pointer;
+}
+
+.fa-youtube:hover{
+    color: rgb(177, 89, 57);
+    cursor: pointer;
+}

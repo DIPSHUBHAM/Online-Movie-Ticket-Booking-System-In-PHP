@@ -1,0 +1,128 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+}
+body{
+  width: 100%;
+   margin: 0px;
+   padding: 0px;
+   font-family: 'Bitter', serif;
+   background-color: rgba(136, 133, 133, 0);
+ background-repeat: no-repeat;
+background-size:100%;
+height: auto;
+background-image: url("blackcover.jpg");
+}
+.navbar-brand{
+    margin-left:50px;
+   margin-right: 50px;
+}
+li{
+
+    font-size: 20px;
+    text-decoration: none;
+    display: inline;
+}
+
+img{
+    margin: 140px 0 0 80px;
+}
+.info{
+    color:white;
+    font-weight: 100px;
+    margin-top:140px;
+    margin-right:30px;
+    float: right;
+}
+.fa-play-circle:hover{
+    color: rgb(94, 228, 228);
+
+}
+.fa-play-circle{
+    color: rgba(235, 225, 215, 0.226);;;
+  margin-bottom: -100px;
+    margin-left:-170px;
+}
+.fa-circle{
+
+    float: right;
+}
+
+.table-hover{
+    color: green;
+    margin-top:x;
+    width: 80%;
+    margin: 200px auto;
+}
+h4{
+color:rgb(126, 128, 12);
+margin-top:-10%;
+margin-left:40%;
+
+}
+.wrapper {
+    display: flex;
+    flex-direction: row;             /* make child elements line up in a row */
+    justify-content: space-between;  /* add space in between children */
+  }
+
+  .wrapper>div {
+    max-width: 30%;                  /* width of children */
+    text-align: center;
+  }
+
+  .actor img {
+    /* size images to width of div (auto height keeps aspect ratio) */
+    display: block;
+max-width:60%;
+    border-radius:130%;
+    ;
+    /* margin-bottom: 10px; */
+  }
+  .review img{
+      display:initial;
+ overflow: hidden;
+ margin-left: 13%;
+ width:15%;
+ border-radius:300%;
+  }
+
+
+  li{
+
+      font-size: 20px;
+      text-decoration: none;
+      display: inline;
+  }
+  footer{
+      background-color:rgb(107, 47, 84);
+  }
+  .navlink{
+      margin-top:20px;
+
+      margin-left: 410px;
+      color: rgb(7, 7, 7);
+  }
+  .icon{
+      margin-left: 560px;
+
+  }
+  .fa-facebook-square:hover{
+      color: rgb(177, 89, 57);
+      cursor: pointer;
+  }
+  .fa-instagram:hover{
+      color: rgb(177, 89, 57);
+      cursor: pointer;
+  }
+
+  .fa-twitter:hover{
+      color: rgb(177, 89, 57);
+      cursor: pointer;
+  }
+
+  .fa-youtube:hover{
+      color: rgb(177, 89, 57);
+      cursor: pointer;
+  }

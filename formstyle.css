@@ -1,0 +1,371 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    text-decoration: none;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+   font-family: 'Bitter', serif;
+   background-image: url(bg.jpg);
+}
+
+.navbar-brand{
+    margin-left:50px;
+   margin-right: 50px;
+}
+li{
+
+    font-size: 20px;
+    text-decoration: none;
+    display: inline;
+}
+.para{
+    color: forestgreen;
+    float: right;
+    position:fixed;
+}
+.form-check-input{
+  width: 150%;
+  height:105%;
+  margin-top:-4px;
+  margin-left:-220px;
+
+}
+#userlogin{
+
+    color:grey;
+    font-weight: 900px;
+    margin-bottom: 20px;
+  text-align: center;
+}
+form{
+    margin-left:150px;
+    padding: 10px;
+    margin-top: 150px;
+    width: 300px;
+}
+#exampleInputEmail1{
+    /* margin-bottom: -5px; */
+    border: 2px solid rgb(87, 53, 53);
+    text-align: center;
+}
+#exampleInputPassword1{
+    border: 2px solid rgb(75, 30, 30);
+    overflow: hidden;
+    margin-top: -20px;
+    text-align: center;
+}
+button{
+    margin-top:2px;
+}
+h6{
+    color:red;
+    margin-top: -14px;
+
+    margin-left: 170px;
+}
+.social{
+     margin-right: 200px;
+    margin-top: -290px;
+    padding:20px;
+    float: right;
+    border-radius: 400%;
+}
+.socialfb{
+     margin-right: 200px;
+    margin-top: -210px;
+    padding:20px;
+    float: right;
+}
+.email{
+    margin-right: 200px;
+    margin-top: -130px;
+    padding:20px;
+    float: right;
+
+}
+.form-check-label{
+    color: orange;
+}
+
+.signup{
+    margin: 50px auto;
+    display:block;
+    width:180px;
+    height:50px;
+    border:3px solid white;
+    background-color:rgba(25, 10, 226, 0);
+    color:rgb(184, 12, 12);
+    font-family:sans-serif;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 1000ms, color 1000ms;
+}
+.signup:hover{
+    background-color:rgb(226, 18, 35);
+    color:rgb(212, 18, 18);
+    cursor:pointer;
+    transition: background-color 1000ms, color 1000ms;
+}
+
+
+.signupLink{
+    text-decoration: none;
+    display:block;
+    padding:15px;
+    color:white;
+    transition: color 1000ms;
+    margin-top:-300px;
+}
+
+.signupLink:hover{
+    color:black;
+}
+
+
+
+
+.popup_container{
+    width:100%;
+    height:100%;
+    pointer-events: none;
+    opacity: 0;
+    position:fixed;
+    background:rgba(2, 70, 88, 0.8);
+    transition:all 500ms ease;
+}
+
+.popup_container:target{
+    opacity:1;
+    pointer-events: auto;
+}
+
+.popup_container > div{
+    transform: translate(0px, -50px);
+	transition: all 500ms ease;
+}
+
+.popup_container:target > div{
+    transform: translate(0px, 0px);
+}
+
+
+.popup{
+    width:350px;
+    height:400px;
+    margin:auto;
+    position: absolute;
+    top:0px; bottom:0px;
+    right:0px; left:0px;
+    background:black;
+    border:2px solid #222;
+    padding:20px;
+    box-shadow: 0px 0px 50px 5px black;
+}
+
+.popup_heading{
+    box-sizing: border-box;
+    width:100%;
+    display:block;
+    height:60px;
+    margin-bottom:30px;
+    color:yellow;
+    padding:10px;
+    text-align: center;
+    font-size:20pt;
+    font-family: big john;
+    border-bottom: 2px solid #fefefe;
+}
+
+input{
+    margin-bottom: 15px;
+    padding:10px;
+    width:100%;
+    box-sizing: border-box;
+    border-radius: 5px;
+    height:50px;
+    border:0px;
+    font-family: georgia;
+    font-size: 11pt;
+    text-align: center;
+}
+
+.btnsignup{
+    background:red;
+    color:white;
+    font-size:15pt;
+    margin-top:10px;
+}
+.btnsignup:hover{
+    background:#b80000;
+}
+.close{
+    color:white;
+    position: absolute;
+    border:2px solid #333;
+    padding:7px 9px 11px 9px;
+    font-family: big john;
+    background:black;
+    text-decoration: none;
+    top:-20px;
+    right:-20px;
+    border-radius: 50%;
+    transition: background 500ms;
+}
+
+.close:hover{
+    background:#444;
+    cursor:pointer;
+}
+
+.signin{
+    color:white;
+    display:inline-block;
+    margin-top:15px;
+    text-align: left;
+    float: left;
+    text-decoration: none;
+    font-size: 13pt;
+}
+.forgotPassword{
+    color:white;
+    display:inline-block;
+    margin-top:15px;
+    text-align: right;
+    float:right;
+    text-decoration: none;
+    font-size: 13pt;
+}
+
+.signin:hover, .forgotPassword:hover{
+    text-decoration: underline;
+}
+
+footer{
+  margin-top: 200px;
+    background-color:rgb(107, 47, 84);
+}
+.navlink{
+    margin-top:20px;
+
+    margin-left: 410px;
+    color: rgb(7, 7, 7);
+}
+.icon{
+    margin-left: 560px;
+
+}
+.fa-facebook-square:hover{
+    color: rgb(177, 89, 57);
+    cursor: pointer;
+}
+.fa-instagram:hover{
+    color: rgb(177, 89, 57);
+    cursor: pointer;
+}
+
+.fa-twitter:hover{
+    color: rgb(177, 89, 57);
+    cursor: pointer;
+}
+
+.fa-youtube:hover{
+    color: rgb(177, 89, 57);
+    cursor: pointer;
+}

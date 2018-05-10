@@ -1,0 +1,46 @@
+body{
+margin-left: 10px;
+  background-color: rgba(255, 255, 255, 0.856);
+}
+button{
+
+border: 1px solid #a7a7a7;
+  width: 15px;
+  height: 15px;
+  background-color: rgb(243, 239, 239);
+}
+ 
+
+.choose-school.active {
+  background-color: green;
+}
+.choose-school:active {
+  background-color: green;
+}
+.choose-school:focus {
+  background-color: green;
+}
+.choose-school{
+  margin-top:12px;
+  
+}
+.ebony{
+  margin-top:120px;
+  padding: 4px;
+  margin-left: 80px;
+
+  margin-right: 550px;
+}
+.gold{
+
+  padding: 10px;
+  margin-left: 80px;
+  margin-right: 550px;
+}
+.silver{
+  padding: 4px;
+  margin-left: 80px;
+  margin-right: 550px;
+
+}
+
